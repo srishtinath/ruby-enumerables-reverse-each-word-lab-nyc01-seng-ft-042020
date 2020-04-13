@@ -9,6 +9,6 @@ end
 
 def reverse_each_word(string)
   phrase_array = string.split
-  phrase_array.collect { |word| word.reverse}
-
+  reverse_phrase = phrase_array.collect { |word| word.reverse}
+  reverse_phrase.join(" ")
 end

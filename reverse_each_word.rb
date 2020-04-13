@@ -1,8 +1,8 @@
 def reverse_each_word(string)
   phrase_array = string.split
-  reverse = []
+  reverse_phrase = []
   phrase_array.each do |word|
-    reverse << word.reverse
+    reverse_phrase << word.reverse
   end
   reverse.join(" ")
 end

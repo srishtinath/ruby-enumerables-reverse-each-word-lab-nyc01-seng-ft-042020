@@ -1,4 +1,4 @@
 def reverse_each_word(string)
   phrase_array = %w(string)
-  return phrase_array.reverse_each
+  phrase_array.reverse_each { |word| p word}
 end
